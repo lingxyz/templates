@@ -1,0 +1,45 @@
+{
+  "name": "pos-purchase-web",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "zhangling <zhangling.rd@gmail.com>",
+  "private": true,
+  "config": {
+    "nuxt": {
+        "host": "0.0.0.0",
+        "port": "3000"
+    }
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nuxt",
+    "build-test": "cross-env NODE_ENV=test nuxt build",
+    "build": "cross-env NODE_ENV=production nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "fundebug-javascript": "^1.1.2",
+    "mint-ui": "^2.2.13",
+    "mock.js": "^0.2.0",
+    "nuxt": "^1.4.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@gauseen/nuxt-proxy": "^1.0.1",
+    "babel-eslint": "^8.2.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "nuxt-stylus-resources-loader": "^1.1.3",
+    "postcss-loader": "^2.1.3",
+    "pug": "^2.0.0-rc.4",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "mockjs": "^1.0.1-beta3"
+  }
+}

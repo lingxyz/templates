@@ -1,10 +1,10 @@
 # linc
-企业级项目初始化脚手架。支持生成Vue，Nuxt，Egg，Springboot，beego等项目定制模板
+linc（ling-cli）是一款企业级项目初始化脚手架。支持生成Vue，Nuxt，Egg，Springboot，beego等项目定制模板
 
 ## 功能概览
 - [ ] linc-cli `cli`
 - [ ] linc-app `可视化`
-- [ ] vue-template `template`
+- [x] vue-template `template`
 - [ ] js-plugin-template `template`
 - [ ] vue-component-template `template`
 - [x] nuxt-template `template`
