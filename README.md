@@ -4,18 +4,19 @@ linc（ling-cli）是一款企业级项目初始化脚手架。支持生成Vue�
 ## 功能概览
 - [ ] linc-cli `cli`
 - [ ] linc-app `可视化`
-- [x] [vue-template](vue-template) `template`
-- [ ] js-plugin-template `template`
-- [ ] vue-component-template `template`
-- [x] [nuxt-template](nuxt-template) `template`
-- [ ] mpvue-template `template`
-- [ ] flutter-template `template`
-- [ ] cordova-template `template`
-- [x] [egg-template](egg-template) `template`
-- [ ] nest-template `template`
-- [ ] springboot-template `template`
-- [ ] java-package-template `template`
-- [ ] beego-template `template`
+- [x] [vue-template](vue-template) `template` `web`
+- [ ] js-plugins-template `template` `plugins`
+- [ ] vue-components-template `template` `components`
+- [x] [nuxt-template](nuxt-template) `template` `web`
+- [ ] mpvue-template `template` `wechat-miniapp`
+- [x] [wepy-template](wepy-template) `template` `wechat-miniapp`
+- [ ] flutter-template `template` `native`
+- [ ] cordova-template `template` `hybird`
+- [x] [egg-template](egg-template) `template` `node`
+- [ ] nest-template `template` `node`
+- [ ] springboot-template `template` `java`
+- [ ] java-package-template `template` `java`
+- [ ] beego-template `template` `go`
 
 ## 快速上手
 

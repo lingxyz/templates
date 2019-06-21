@@ -1,0 +1,71 @@
+<style lang="sass">
+$bgcolor: #f0eff5;
+
+.discovery {
+    background-color: $bgcolor;
+    height: 100%;
+    padding-top: 0rpx;
+}
+</style>
+
+<template>
+    <view class="discovery">
+
+        <!--
+        <moment :list="dMoment" />
+        <action :list="dShopping" />
+        <drift :list="dDrift" />
+        <shopping :list="dAction" />
+        -->
+
+
+            <repeat for="{{list}}" key="index" index="index" item="item">
+                <group :list="item"></group>
+            </repeat>
+            <!--block wx:for="{{list}}" wx:key="index" wx:for-index="index" wx:for-item="item">
+                <view class="item" @tap="click({{index}}, {{item}})">
+                    <image class="icon" src="{{item.icon}}"></image>
+                    <text class="title">{{item.title}}</text>
+                    <image class="arrow_left" src="../assets/arrow_left.png"></image>
+                </view>
+            </block-->
+    </view>
+</template>
+
+<script>
+import wepy from 'wepy'
+
+import Group from './group'
+
+export default class Message extends wepy.component {
+
+    components = {
+        /* moment: List,
+        action: List,
+        drift: List,
+        shopping: List, */
+        group: Group
+    }
+
+    data = {
+        dMoment: [{icon: wepy.env === 'web' ? './assets/moment.png' : '../assets/moment.png', title: '朋友圈'}],
+        dShopping: [{icon: wepy.env === 'web' ? './assets/shopping.png' : '../assets/shopping.png', title: '购物'}],
+        dDrift: [{icon: wepy.env === 'web' ? './assets/drift.png' : '../assets/drift.png', title: '漂流瓶'}],
+        dAction: [{icon: wepy.env === 'web' ? './assets/scan.png' : '../assets/scan.png', title: '扫一扫'}, {icon: wepy.env === 'web' ? './assets/shake.png' : '../assets/shake.png', title: '摇一摇'}],
+
+        list: {
+            dMoment: [{icon: wepy.env === 'web' ? './assets/moment.png' : '../assets/moment.png', title: '朋友圈'}],
+            dShopping: [{icon: wepy.env === 'web' ? './assets/shopping.png' : '../assets/shopping.png', title: '购物'}],
+            dDrift: [{icon: wepy.env === 'web' ? './assets/drift.png' : '../assets/drift.png', title: '漂流瓶'}],
+            dAction: [{icon: wepy.env === 'web' ? './assets/scan.png' : '../assets/scan.png', title: '扫一扫'}, {icon: wepy.env === 'web' ? './assets/shake.png' : '../assets/shake.png', title: '摇一摇'}]
+        }
+    }
+
+    methods = {
+    }
+
+    onLoad () {
+    }
+
+}
+</script>

@@ -1,0 +1,79 @@
+<style lang="sass">
+$fontcolor: #7b7b7b;
+$activecolor: #13b113;
+
+.tab {
+    position: fixed;
+    bottom: 0;
+    height: 100rpx;
+    width: 100%;
+    border-top: 1px solid #dad9d6;
+    background-color: #f7f7f7;
+    font-size: 24rpx;
+    white-space: nowrap;
+    .tab_item {
+        display: inline-block;
+        width: 25%;
+        text-align: center;
+    }
+    .icon {
+        width: 60rpx;
+        height: 60rpx;
+        display: block;
+        margin: auto;
+    }
+    .title {
+        padding-top: 6rpx;
+        display: block;
+        color: $fontcolor;
+        &.active {
+            color: $activecolor;
+        }
+    }
+}
+</style>
+
+<template lang="pug">
+view.tab
+    view.tab_item(
+        wx:for="{{menu}}"
+        data-idx="{{index}}"
+        @tap="change"
+    )
+        image.icon(src="../assets/{{item.icon}}{{active == index ? '_active' : ''}}.png")
+        text.title(:class="{'active': active == index}") {{item.text}}
+</template>
+
+<script>
+import wepy from 'wepy'
+
+export default class Tab extends wepy.component {
+
+    props = {
+        active: {
+            twoWay: true
+        }
+    }
+
+    data = {
+        menu: [
+            { icon: 'message', text: '微信' },
+            { icon: 'contact', text: '通讯录' },
+            { icon: 'discovery', text: '发现' },
+            { icon: 'me', text: '我' }
+        ]
+    }
+
+    methods = {
+        change (e) {
+            let idx = e.currentTarget.dataset.idx
+            console.log(e)
+            this.active = idx
+        }
+    }
+
+    onLoad () {
+    }
+
+}
+</script>
