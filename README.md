@@ -13,6 +13,7 @@ linc（ling-cli）是一款企业级项目初始化脚手架。支持生成Vue�
 - [ ] flutter-template `template` `native`
 - [ ] cordova-template `template` `hybird`
 - [x] [egg-template](egg-template) `template` `node`
+- [x] [koa-template](koa-template) `template` `node`
 - [ ] nest-template `template` `node`
 - [ ] springboot-template `template` `java`
 - [ ] java-package-template `template` `java`
