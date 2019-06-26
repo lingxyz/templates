@@ -8,6 +8,7 @@ linc（ling-cli）是一款企业级项目初始化脚手架。支持生成Vue�
 - [ ] js-plugins-template `template` `plugins`
 - [ ] vue-components-template `template` `components`
 - [x] [nuxt-template](nuxt-template) `template` `web`
+- [x] [angular-template](angular -template) `template` `web`
 - [ ] mpvue-template `template` `wechat-miniapp`
 - [x] [wepy-template](wepy-template) `template` `wechat-miniapp`
 - [ ] flutter-template `template` `native`
