@@ -1,5 +1,5 @@
-# linc
-linc（ling-cli）是一款企业级项目初始化脚手架。支持生成Vue，Nuxt，Egg，Springboot，beego等项目定制模板
+# AC(app-creater）
+一款企业级通用应用初始化脚手架。支持生成Vue，Nuxt，Egg，Springboot，beego等项目定制模板
 
 ## 功能概览
 - [ ] linc-cli `cli`
