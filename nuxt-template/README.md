@@ -1,22 +1,20 @@
 # nuxt-template
 
-> A project cli with nuxt.js
+> A Nuxt.js template to initial project
 
-## Todo:
-- change eslint
-- unit
-- e2e
-- 个性化过度效果
-
-## 定制：
-- html 使用 pug
-- css 使用 stylus
-- html header config
-- use axios for http request
-- use mint-ui UI components
-- env config
-- api proxy
-- use mock.js to intercepting data request
+## Additional Features
+- [x] html 使用 pug
+- [x] css 使用 stylus
+- [x] html header config
+- [x] use axios for http request
+- [x] use mint-ui UI components
+- [x] env config
+- [x] api proxy
+- [x] use mock.js to intercepting data request
+- [ ] change eslint
+- [ ] unit
+- [ ] e2e
+- [ ] 个性化过度效果
 
 ## Build Setup
 
@@ -30,12 +28,17 @@ $ npm install # Or yarn install
 $ npm run dev
 
 # build for production and launch server
-$ npm run build-test	# test env
-$ npm run build	# product env
-$ npm start
+$ npm run build:test
+$ npm run build:uat
+$ npm run build:prd
+$ npm run start
 
 # generate static project
-$ npm run generate
+$ npm run generate:test
+$ npm run generate:uat
+$ npm run generate:prd
+
+package dir: /dist
 ```
 
 ## Mock async data
@@ -52,3 +55,39 @@ $ npm run generate
 > view adddress: https://www.fundebug.com
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+
+## File Tree
+
+```
+.
+├── assets     # 资源目录
+├── components # 全局组件
+├── layouts    # 布局
+│   └── default.vue
+├── middleware # 中间件
+├── pages      # 页面
+│   └── index.vue
+├── plugins    # 插件
+│   ├── fetch.js
+│   ├── fundebug.js
+│   └── mint-ui.js
+├── static     # 静态文件目录
+│   └── favicon.ico
+├── store      # vuex状态树
+├── styles     # 全局分层样式表
+│   ├── reset.styl
+│   ├── variables.styl
+│   ├── base.styl
+│   ├── common.styl
+│   ├── resetMintUI.styl
+│   └── style.styl
+├── app.config.js  # 项目全局配置
+├── nuxt.config.js # nuxt 框架配置
+├── package-lock.json
+├── package.json
+├── .editorconfig
+├── .gitignore
+└── README.md
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

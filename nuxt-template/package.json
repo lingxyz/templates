@@ -1,8 +1,8 @@
 {
-  "name": "pos-purchase-web",
+  "name": "nuxt-template",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
-  "author": "zhangling <zhangling.rd@gmail.com>",
+  "description": "Nuxt.js template",
+  "author": "zhangling <zhangling.me@foxmail.com>",
   "private": true,
   "config": {
     "nuxt": {
@@ -11,35 +11,41 @@
     }
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nuxt",
-    "build-test": "cross-env NODE_ENV=test nuxt build",
-    "build": "cross-env NODE_ENV=production nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
+    "dev": "cross-env NODE_ENV=dev nuxt",
+    "generate:test": "cross-env NODE_ENV=test nuxt generate",
+    "generate:uat": "cross-env NODE_ENV=uat nuxt generate",
+    "generate:prd": "cross-env NODE_ENV=prd nuxt generate",
+    "build:test": "cross-env NODE_ENV=test nuxt build",
+    "build:uat": "cross-env NODE_ENV=uat nuxt build",
+    "build:prd": "cross-env NODE_ENV=prd nuxt build",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "start": "nuxt start"
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "fundebug-javascript": "^1.1.2",
     "mint-ui": "^2.2.13",
+    "nuxt": "^2.0.0",
+    "axios": "^0.18.0",
+    "fundebug-vue": "0.0.1",
+    "fundebug-javascript": "^2.1.2",
     "mock.js": "^0.2.0",
-    "nuxt": "^1.4.0",
     "vuex": "^3.0.1"
+
   },
   "devDependencies": {
-    "@gauseen/nuxt-proxy": "^1.0.1",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "cross-env": "^7.0.2",
     "babel-eslint": "^8.2.1",
-    "cross-env": "^5.2.0",
     "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
+    "eslint-friendly-formatter": "^3.0.0",
     "eslint-plugin-vue": "^4.0.0",
     "nuxt-stylus-resources-loader": "^1.1.3",
     "postcss-loader": "^2.1.3",
-    "pug": "^2.0.0-rc.4",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1",
+    "@gauseen/nuxt-proxy": "^1.0.1",
     "mockjs": "^1.0.1-beta3"
   }
 }
