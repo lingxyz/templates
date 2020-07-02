@@ -1,0 +1,30 @@
+{
+  "name": "cook-cli",
+  "version": "0.0.1",
+  "description": "A simple CLI for scaffolding enterprise projects",
+  "preferGlobal": true,
+  "bin": {
+    "cook": "bin/cook",
+    "ck": "bin/cook"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CookX/cook-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Zero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CookX/cook-cli/issues"
+  },
+  "homepage": "https://github.com/CookX/cook-cli#readme",
+  "dependencies": {
+    "commander": "^5.0.0"
+  }
+}

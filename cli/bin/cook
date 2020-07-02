@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+// https://github.com/tj/commander.js/blob/master/Readme_zh-CN.md
+const { program } = require('commander')
+
+// command list
+program
+  .version(require('../package').version)
+  .usage("<command> [options]")
+  .option('init', 'generate a new project from a template')
+  .command('ui', 'UI可视化')
+  .command('ls', 'list available official templates')
+  .command('build', 'prototype a new project')
+  .command('dev', '无配置开发模式，起服务')
+  .command('build', '打包编译产出')
+  .command('deploy', '快速发布')
+  .parse(process.argv)
