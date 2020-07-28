@@ -24,6 +24,12 @@
 
 ## 快速上手
 
+### 直接克隆指定模板
+```bash
+git clone -b [template name] https://github.com/zhanglingx/templates.git
+```
+
+### 通过cli工具生成模板
 - 安装
 
 ```bash
