@@ -17,7 +17,7 @@
 - [x] [egg-template](https://github.com/zhanglingx/templates/tree/egg-template) `template` `node`
 - [x] [koa-template](https://github.com/zhanglingx/templates/tree/koa-template) `template` `node`
 - [ ] nest-template `template` `node`
-- [ ] springboot-template `template` `java`
+- [x] [springboot-template](https://github.com/zhanglingx/templates/tree/springboot-template) `template` `java`
 - [ ] java-package-template `template` `java`
 - [ ] beego-template `template` `go`
 - [x] [ci-template](https://github.com/zhanglingx/templates/tree/ci-template) `template` `php`
