@@ -4,23 +4,23 @@
 ## 功能概览
 - [ ] linc-cli `cli`
 - [ ] linc-app `可视化`
-- [x] [vue-template](vue-template) `template` `web`
+- [x] [vue-template](https://github.com/zhanglingx/templates/tree/vue-template) `template` `web`
 - [ ] js-plugins-template `template` `plugins`
 - [ ] vue-components-template `template` `components`
-- [x] [nuxt-template](nuxt-template) `template` `web`
-- [x] [angular-template](angular-template) `template` `web`
+- [x] [nuxt-template](https://github.com/zhanglingx/templates/tree/nuxt-template) `template` `web`
+- [x] [angular-template](https://github.com/zhanglingx/templates/tree/angular-template) `template` `web`
 - [ ] mpvue-template `template` `wechat-miniapp`
-- [x] [wepy-template](wepy-template) `template` `wechat-miniapp`
+- [x] [wepy-template](https://github.com/zhanglingx/templates/tree/wepy-template) `template` `wechat-miniapp`
 - [ ] flutter-template `template` `native`
 - [ ] cordova-template `template` `hybird`
-- [x] [node-template](node-template) `template` `node`
-- [x] [egg-template](egg-template) `template` `node`
-- [x] [koa-template](koa-template) `template` `node`
+- [x] [node-template](https://github.com/zhanglingx/templates/tree/node-template) `template` `node`
+- [x] [egg-template](https://github.com/zhanglingx/templates/tree/egg-template) `template` `node`
+- [x] [koa-template](https://github.com/zhanglingx/templates/tree/koa-template) `template` `node`
 - [ ] nest-template `template` `node`
 - [ ] springboot-template `template` `java`
 - [ ] java-package-template `template` `java`
 - [ ] beego-template `template` `go`
-- [x] [ci-template](ci-template) `template` `php`
+- [x] [ci-template](https://github.com/zhanglingx/templates/tree/ci-template) `template` `php`
 
 ## 快速上手
 
