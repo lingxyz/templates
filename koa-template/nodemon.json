@@ -1,9 +1,0 @@
-{
-	"ignore": [
-		"db/users/*.json"
-	],
-	"env": {
-		"NODE_ENV": "development",
-		"PORT": "3000"
-	}
-}

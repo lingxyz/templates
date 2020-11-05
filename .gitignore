@@ -1,8 +1,11 @@
 # node dependencies
 node_modules
 
+# dist
+dist
+
 # logs
-npm-debug.log
+*.log
 package-lock.json
 
 # mac dir
