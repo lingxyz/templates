@@ -4,9 +4,12 @@
 
 ## Useage
 
-### 直接克隆指定模板
+### 直接克隆
 ```bash
-git clone https://github.com/zhanglingx/[name]-templates.git
+# 克隆指定demo，安装依赖后可直接起服务
+git clone -b [name]-example git@github.com:zhanglingme/starter.git
+# 克隆指定模板，需要执行st编译后才可起服务
+git clone -b [name]-template git@github.com:zhanglingme/starter.git
 ```
 
 ### 通过cli工具生成模板
@@ -60,20 +63,21 @@ xx | Array | xx
 - [x] `st -h` display help for command
 
 ## Templates
-- [x] [vue-template](https://github.com/zhanglingx/vue-template) `template` `web`
-- [ ] js-plugins-template `template` `plugins`
-- [ ] vue-components-template `template` `components`
-- [x] [nuxt-template](https://github.com/zhanglingx/nuxt-template) `template` `web`
-- [x] [angular-template](https://github.com/zhanglingx/angular-template) `template` `web`
-- [ ] mpvue-template `template` `wechat-miniapp`
-- [x] [wepy-template](https://github.com/zhanglingx/wepy-template) `template` `wechat-miniapp`
-- [ ] flutter-template `template` `native`
-- [ ] cordova-template `template` `hybird`
-- [x] [node-template](https://github.com/zhanglingx/node-template) `template` `node`
-- [x] [egg-template](https://github.com/zhanglingx/egg-template) `template` `node`
-- [x] [koa-template](https://github.com/zhanglingx/koa-template) `template` `node`
-- [ ] nest-template `template` `node`
-- [x] [springboot-template](https://github.com/zhanglingx/springboot-template) `template` `java`
-- [ ] java-package-template `template` `java`
-- [ ] beego-template `template` `go`
-- [x] [ci-template](https://github.com/zhanglingx/ci-template) `template` `php`
+- [x] [vue3-template](https://github.com/zhanglingme/starter/tree/vue3-example) `web`
+- [x] [vue-template](https://github.com/zhanglingme/vue-template) `web`
+- [ ] js-plugins-template `plugins`
+- [ ] vue-components-template `components`
+- [x] [nuxt-template](https://github.com/zhanglingme/nuxt-template) `web`
+- [x] [angular-template](https://github.com/zhanglingme/angular-template) `web`
+- [ ] mpvue-template `wechat-miniapp`
+- [x] [wepy-template](https://github.com/zhanglingme/wepy-template) `wechat-miniapp`
+- [ ] flutter-template `native`
+- [ ] cordova-template `hybird`
+- [x] [node-template](https://github.com/zhanglingme/node-template) `node`
+- [x] [egg-template](https://github.com/zhanglingme/egg-template) `node`
+- [x] [koa-template](https://github.com/zhanglingme/koa-template) `node`
+- [ ] nest-template `node`
+- [x] [springboot-template](https://github.com/zhanglingme/springboot-template) `java`
+- [ ] java-package-template `java`
+- [ ] beego-template `go`
+- [x] [ci-template](https://github.com/zhanglingme/ci-template) `php`
