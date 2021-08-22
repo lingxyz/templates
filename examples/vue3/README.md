@@ -4,7 +4,7 @@ This template should help get you started developing with Vue 3 and Typescript i
 
 ## Feature Added
 ### 目录约定
-``` shell
+``` bash
 src
   assets # 静态资源
   components # 全局组件
