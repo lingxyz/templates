@@ -67,7 +67,7 @@ xx | Array | xx
 - [ ] [egg-template](https://github.com/zhanglingme/egg-template) `node`
 - [ ] [koa-template](https://github.com/zhanglingme/koa-template) `node`
 - [x] [nest-example](https://github.com/zhanglingme/starter/tree/nest-example) `node`
-- [ ] [springboot-jpa-example](https://github.com/zhanglingme/starter/tree/springboot-jpa-example) `java`
+- [x] [springboot-jpa-example](https://github.com/zhanglingme/starter/tree/springboot-jpa-example) `java`
 - [x] [springboot-mybatis-example](https://github.com/zhanglingme/starter/tree/springboot-mybatis-example) `java`
 - [ ] java-package-template `java`
 - [ ] beego-template `go`
