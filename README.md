@@ -54,20 +54,21 @@ xx | Array | xx
 
 ## Templates
 - [x] [vue3-example](https://github.com/zhanglingme/starter/tree/vue3-example) `web`
-- [x] [vue-template](https://github.com/zhanglingme/vue-template) `web`
+- [ ] [vue-template](https://github.com/zhanglingme/vue-template) `web`
 - [ ] js-plugins-template `plugins`
 - [ ] vue-components-template `components`
-- [x] [nuxt-template](https://github.com/zhanglingme/nuxt-template) `web`
-- [x] [angular-template](https://github.com/zhanglingme/angular-template) `web`
+- [ ] [nuxt-template](https://github.com/zhanglingme/nuxt-template) `web`
+- [ ] [angular-template](https://github.com/zhanglingme/angular-template) `web`
 - [ ] mpvue-template `wechat-miniapp`
-- [x] [wepy-template](https://github.com/zhanglingme/wepy-template) `wechat-miniapp`
+- [ ] [wepy-template](https://github.com/zhanglingme/wepy-template) `wechat-miniapp`
 - [ ] flutter-template `native`
 - [ ] cordova-template `hybird`
-- [x] [node-template](https://github.com/zhanglingme/node-template) `node`
-- [x] [egg-template](https://github.com/zhanglingme/egg-template) `node`
-- [x] [koa-template](https://github.com/zhanglingme/koa-template) `node`
+- [ ] [node-template](https://github.com/zhanglingme/node-template) `node`
+- [ ] [egg-template](https://github.com/zhanglingme/egg-template) `node`
+- [ ] [koa-template](https://github.com/zhanglingme/koa-template) `node`
 - [x] [nest-example](https://github.com/zhanglingme/starter/tree/nest-example) `node`
-- [x] [springboot-template](https://github.com/zhanglingme/springboot-template) `java`
+- [ ] [springboot-jpa-example](https://github.com/zhanglingme/starter/tree/springboot-jpa-example) `java`
+- [x] [springboot-mybatis-example](https://github.com/zhanglingme/starter/tree/springboot-mybatis-example) `java`
 - [ ] java-package-template `java`
 - [ ] beego-template `go`
-- [x] [ci-template](https://github.com/zhanglingme/ci-template) `php`
+- [ ] [ci-template](https://github.com/zhanglingme/ci-template) `php`

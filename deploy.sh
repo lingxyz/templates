@@ -12,7 +12,7 @@ for dir in `ls`; do
     git init
     git add -A
     git commit -m 'deploy'
-    cmd='git push -f git@github.com:zhanglingx/templates.git master:'$dir
+    cmd='git push -f git@github.com:zhanglingme/templates.git master:'$dir
     $cmd
     echo $dir' push success!'
     rm -rf .git
