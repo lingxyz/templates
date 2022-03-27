@@ -1,0 +1,8 @@
+{
+  "extends": "eslint-config-egg",
+  "rules": {
+		"indent": ["error", "tab"],
+		"semi": [0],
+		"eol-last": 0
+  }
+}

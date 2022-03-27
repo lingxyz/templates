@@ -1,0 +1,81 @@
+<style lang="sass">
+$border: 1px solid #eeeeee;
+
+.list {
+    margin-top: 40rpx;
+    background-color: #fff;
+    border-bottom: $border;
+    .item {
+        height: 100rpx;
+        position: relative;
+        box-sizing: border-box;
+        padding: 20rpx;
+        border-bottom: $border;
+        .icon {
+            width: 60rpx;
+            height: 60rpx;
+            position: absolute;
+            margin-left: 15rpx;
+        }
+        .arrow_left {
+            position: absolute;
+            right: 20rpx;
+            width: 30rpx;
+            height: 40rpx;
+            margin-top: -32rpx;
+        }
+        .title {
+            padding: 18rpx 0 0 100rpx;
+            display: block;
+            font-size: 33rpx;
+        }
+    }
+}
+</style>
+
+<template lang="pug">
+view.list
+    block(
+        wx:for="{{list}}"
+        wx:key="index"
+        wx:for-index="index"
+        wx:for-item="item"
+    )
+        view.item(@tap="click({{index}}, {{item}})")
+            image.icon(src="{{item.icon}}")
+            text.title {{item.title}}
+            image.arrow_left(src="../assets/arrow_left.png")
+</template>
+
+<script>
+import wepy from 'wepy'
+
+export default class List extends wepy.component {
+
+    props = {
+        list: {}
+    }
+
+    data = {
+    }
+
+    methods = {
+        click (index, item, evt) {
+            if (this.list[index].action) {
+                this.list[index].action.call(this.$parent)
+            } else {
+                this.$root.showToast(item.title)
+            }
+        }
+    }
+
+    onLoad () {
+    }
+
+    load(list) {
+        this.list = list
+        this.$apply()
+    }
+
+}
+</script>

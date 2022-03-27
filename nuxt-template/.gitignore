@@ -1,0 +1,21 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+package-lock.json
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# mac dir
+.DS_Store
+
+# vscode
+.vscode
+
+# idea
+.idea

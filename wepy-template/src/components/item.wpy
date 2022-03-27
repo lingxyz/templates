@@ -1,0 +1,29 @@
+<template lang="pug">
+view.item(@tap="click")
+    image.icon(src="{{item.icon}}")
+    text.title {{item.title}}
+    image.arrow_left(src="../assets/arrow_left.png")
+</template>
+
+<script>
+import wepy from 'wepy'
+
+export default class Item extends wepy.component {
+
+    props = {
+        item: {},
+        index: {},
+    }
+
+    methods = {
+        click (evt) {
+            if (this.item.action) {
+                this.item.action.call(this.$parent)
+            } else {
+                this.$root.showToast(this.item.title)
+            }
+        }
+    }
+
+}
+</script>

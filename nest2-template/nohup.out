@@ -1,0 +1,206 @@
+yarn run v1.22.10
+$ nest start
+[32m[Nest] 90841   - [39m2021-08-16 17:56:35   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 90841   - [39m2021-08-16 17:56:35   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +110ms[39m
+[32m[Nest] 90841   - [39m2021-08-16 17:56:35   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90841   - [39m2021-08-16 17:56:35   [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +64ms[39m
+[32m[Nest] 90841   - [39m2021-08-16 17:56:35   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 90841   - [39m2021-08-16 17:56:35   [38;5;3m[InstanceLoader] [39m[32mHeadcountModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90841   - [39m2021-08-16 17:56:35   [38;5;3m[RoutesResolver] [39m[32mHeadcountController {/headcount}:[39m[38;5;3m +8ms[39m
+[32m[Nest] 90841   - [39m2021-08-16 17:56:35   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 90841   - [39m2021-08-16 17:56:35   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount/save, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 90841   - [39m2021-08-16 17:56:35   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+server start at: http://localhost:3001
+events.js:187
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (net.js:1301:14)
+    at listenInCluster (net.js:1349:12)
+    at Server.listen (net.js:1437:7)
+    at ExpressAdapter.listen (/Users/shinho/code/ling/recruit/service/node_modules/@nestjs/platform-express/adapters/express-adapter.js:45:32)
+    at NestApplication.listen (/Users/shinho/code/ling/recruit/service/node_modules/@nestjs/core/nest-application.js:149:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bootstrap (/Users/shinho/code/ling/recruit/service/dist/main.js:11:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1328:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.10
+$ nest start
+yarn run v1.22.10
+$ nest start
+[32m[Nest] 90896   - [39m2021-08-16 17:57:24   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 90896   - [39m2021-08-16 17:57:25   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +140ms[39m
+[32m[Nest] 90896   - [39m2021-08-16 17:57:25   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90896   - [39m2021-08-16 17:57:25   [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +231ms[39m
+[32m[Nest] 90896   - [39m2021-08-16 17:57:25   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 90896   - [39m2021-08-16 17:57:25   [38;5;3m[InstanceLoader] [39m[32mHeadcountModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90896   - [39m2021-08-16 17:57:25   [38;5;3m[RoutesResolver] [39m[32mHeadcountController {/headcount}:[39m[38;5;3m +6ms[39m
+[32m[Nest] 90896   - [39m2021-08-16 17:57:25   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 90896   - [39m2021-08-16 17:57:25   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount/save, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 90896   - [39m2021-08-16 17:57:25   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+server start at: http://localhost:3001
+events.js:187
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (net.js:1301:14)
+    at listenInCluster (net.js:1349:12)
+    at Server.listen (net.js:1437:7)
+    at ExpressAdapter.listen (/Users/shinho/code/ling/recruit/service/node_modules/@nestjs/platform-express/adapters/express-adapter.js:45:32)
+    at NestApplication.listen (/Users/shinho/code/ling/recruit/service/node_modules/@nestjs/core/nest-application.js:149:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bootstrap (/Users/shinho/code/ling/recruit/service/dist/main.js:11:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1328:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+[32m[Nest] 90923   - [39m2021-08-16 17:57:46   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 90923   - [39m2021-08-16 17:57:46   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +79ms[39m
+[32m[Nest] 90923   - [39m2021-08-16 17:57:46   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 90923   - [39m2021-08-16 17:57:46   [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +57ms[39m
+[32m[Nest] 90923   - [39m2021-08-16 17:57:46   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 90923   - [39m2021-08-16 17:57:46   [38;5;3m[InstanceLoader] [39m[32mHeadcountModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90923   - [39m2021-08-16 17:57:46   [38;5;3m[RoutesResolver] [39m[32mHeadcountController {/headcount}:[39m[38;5;3m +5ms[39m
+[32m[Nest] 90923   - [39m2021-08-16 17:57:46   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount, GET} route[39m[38;5;3m +16ms[39m
+[32m[Nest] 90923   - [39m2021-08-16 17:57:46   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount/save, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 90923   - [39m2021-08-16 17:57:46   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+server start at: http://localhost:3001
+events.js:187
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (net.js:1301:14)
+    at listenInCluster (net.js:1349:12)
+    at Server.listen (net.js:1437:7)
+    at ExpressAdapter.listen (/Users/shinho/code/ling/recruit/service/node_modules/@nestjs/platform-express/adapters/express-adapter.js:45:32)
+    at NestApplication.listen (/Users/shinho/code/ling/recruit/service/node_modules/@nestjs/core/nest-application.js:149:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bootstrap (/Users/shinho/code/ling/recruit/service/dist/main.js:11:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1328:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.10
+$ nest start
+[32m[Nest] 91424   - [39m2021-08-16 18:02:11   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 91424   - [39m2021-08-16 18:02:11   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +83ms[39m
+[32m[Nest] 91424   - [39m2021-08-16 18:02:11   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 91424   - [39m2021-08-16 18:02:11   [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +37ms[39m
+[32m[Nest] 91424   - [39m2021-08-16 18:02:11   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 91424   - [39m2021-08-16 18:02:11   [38;5;3m[InstanceLoader] [39m[32mHeadcountModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 91424   - [39m2021-08-16 18:02:11   [38;5;3m[RoutesResolver] [39m[32mHeadcountController {/headcount}:[39m[38;5;3m +4ms[39m
+[32m[Nest] 91424   - [39m2021-08-16 18:02:11   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 91424   - [39m2021-08-16 18:02:11   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount/save, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 91424   - [39m2021-08-16 18:02:11   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+server start at: http://localhost:3001
+yarn run v1.22.10
+$ nest start
+[32m[Nest] 91692   - [39m2021-08-16 18:02:26   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 91692   - [39m2021-08-16 18:02:26   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +78ms[39m
+[32m[Nest] 91692   - [39m2021-08-16 18:02:26   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 91692   - [39m2021-08-16 18:02:26   [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +46ms[39m
+[32m[Nest] 91692   - [39m2021-08-16 18:02:26   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 91692   - [39m2021-08-16 18:02:26   [38;5;3m[InstanceLoader] [39m[32mHeadcountModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 91692   - [39m2021-08-16 18:02:26   [38;5;3m[RoutesResolver] [39m[32mHeadcountController {/headcount}:[39m[38;5;3m +5ms[39m
+[32m[Nest] 91692   - [39m2021-08-16 18:02:26   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 91692   - [39m2021-08-16 18:02:26   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount/save, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 91692   - [39m2021-08-16 18:02:26   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+server start at: http://localhost:3001
+events.js:187
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (net.js:1301:14)
+    at listenInCluster (net.js:1349:12)
+    at Server.listen (net.js:1437:7)
+    at ExpressAdapter.listen (/Users/shinho/code/ling/recruit/service/node_modules/@nestjs/platform-express/adapters/express-adapter.js:45:32)
+    at NestApplication.listen (/Users/shinho/code/ling/recruit/service/node_modules/@nestjs/core/nest-application.js:149:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bootstrap (/Users/shinho/code/ling/recruit/service/dist/main.js:11:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1328:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.10
+$ nest start
+[32m[Nest] 91950   - [39m2021-08-16 18:03:35   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 91950   - [39m2021-08-16 18:03:35   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +75ms[39m
+[32m[Nest] 91950   - [39m2021-08-16 18:03:35   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 91950   - [39m2021-08-16 18:03:35   [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +50ms[39m
+[32m[Nest] 91950   - [39m2021-08-16 18:03:35   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 91950   - [39m2021-08-16 18:03:35   [38;5;3m[InstanceLoader] [39m[32mHeadcountModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 91950   - [39m2021-08-16 18:03:35   [38;5;3m[RoutesResolver] [39m[32mHeadcountController {/headcount}:[39m[38;5;3m +5ms[39m
+[32m[Nest] 91950   - [39m2021-08-16 18:03:35   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 91950   - [39m2021-08-16 18:03:35   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount/save, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 91950   - [39m2021-08-16 18:03:35   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+server start at: http://localhost:3001
+events.js:187
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (net.js:1301:14)
+    at listenInCluster (net.js:1349:12)
+    at Server.listen (net.js:1437:7)
+    at ExpressAdapter.listen (/Users/shinho/code/ling/recruit/service/node_modules/@nestjs/platform-express/adapters/express-adapter.js:45:32)
+    at NestApplication.listen (/Users/shinho/code/ling/recruit/service/node_modules/@nestjs/core/nest-application.js:149:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bootstrap (/Users/shinho/code/ling/recruit/service/dist/main.js:11:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1328:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.10
+$ nest start
+[32m[Nest] 94567   - [39m2021-08-16 19:10:22   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 94567   - [39m2021-08-16 19:10:22   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +110ms[39m
+[32m[Nest] 94567   - [39m2021-08-16 19:10:22   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 94567   - [39m2021-08-16 19:10:22   [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +52ms[39m
+[32m[Nest] 94567   - [39m2021-08-16 19:10:22   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 94567   - [39m2021-08-16 19:10:22   [38;5;3m[InstanceLoader] [39m[32mHeadcountModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 94567   - [39m2021-08-16 19:10:22   [38;5;3m[RoutesResolver] [39m[32mHeadcountController {/headcount}:[39m[38;5;3m +6ms[39m
+[32m[Nest] 94567   - [39m2021-08-16 19:10:22   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 94567   - [39m2021-08-16 19:10:22   [38;5;3m[RouterExplorer] [39m[32mMapped {/headcount/save, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 94567   - [39m2021-08-16 19:10:22   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+server start at: http://localhost:3001

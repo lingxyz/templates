@@ -1,0 +1,42 @@
+extends ../layout
+
+block content
+	.container
+		.row
+			form.formhorizontal(method="post", action="/admin/movie/new")
+				input(type="hidden", name="movie[_id]", value="#{movie._id}", id="id")
+				.form-group
+					label.col-sm-3.control-label(for="inputTitle") 景点名字
+					.cul-sm-10
+						input#inputTitle.form-control(type="text", name="movie[title]", value="#{movie.title}")
+				.form-group
+					label.col-sm-3.control-label(for="inputAddress") 地点
+					.cul-sm-10
+						input#inputAddress.form-control(type="text", name="movie[address]", value="#{movie.address}")
+				.form-group
+					label.col-sm-3.control-label(for="inputPrice") 价格
+					.cul-sm-10
+						input#inputPrice.form-control(type="text", name="movie[price]", value="#{movie.price}")
+				.form-group
+					label.col-sm-3.control-label(for="inputLanguage") 语言
+					.cul-sm-10
+						input#inputLanguage.form-control(type="text", name="movie[language]", value="#{movie.language}")
+				.form-group
+					label.col-sm-3.control-label(for="inputPoster") 海报地址
+					.cul-sm-10
+						input#inputPoster.form-control(type="text", name="movie[poster]", value="#{movie.poster}")
+				.form-group
+					label.col-sm-3.control-label(for="inputFlash") 片源地址
+					.cul-sm-10
+						input#inputFlash.form-control(type="text", name="movie[flash]", value="#{movie.flash}")
+				.form-group
+					label.col-sm-3.control-label(for="inputPeak") 旺季
+					.cul-sm-10
+						input#inputPeak.form-control(type="text", name="movie[peak]", value="#{movie.peak}")
+				.form-group
+					label.col-sm-3.control-label(for="inputSummary") 简介
+					.cul-sm-10
+						input#inputSummary.form-control(type="text", name="movie[summary]", value="#{movie.summary}")
+				.form-group
+					label.col-sm-offset-2.col-sm-10
+						button.btn.btn-default(type="submit") 录入
