@@ -14,7 +14,6 @@ vue create lingxyz/templates#vue3-template vue3-project
 classify | template | status
 ---- | --- | ---
 `java` | [springboot-jpa-template](springboot-jpa-template) | ✅
-`java` | [springboot-jpa1-template](springboot-jpa1-template) | ☑️
 `java` | [springboot-mybatis-template](springboot-mybatis-template) | ✅
 `java` | micro-service-template | -
 `java` | java-package-template | -
