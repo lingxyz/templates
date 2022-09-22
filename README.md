@@ -26,7 +26,7 @@ classify | template | status
 `go` |  beego-template | -
 `php` | [ci-template](ci-template) | ✅
 `web` | [vue3-template](vue3-template) | ✅
-`web` | [vue-template](vue-template) | ✅
+`web` | [vue2-template](vue2-template) | ✅
 `web` | [nuxt-template](nuxt-template) | ✅
 `web` | [angular-template](angular-template)  | ✅
 `plugins` | js-plugins-template  | -
