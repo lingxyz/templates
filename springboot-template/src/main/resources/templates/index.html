@@ -1,0 +1,34 @@
+<!--网址：http://localhost:8080/-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo演示首页</title>
+  <style>
+    .block {
+      border: 1px solid #e1e1e1;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="block">
+    <h1>登录</h1>
+    <form action="/user/login" method="post">
+      用户名：<input name="userName" type="text" value="admin"><br>
+      密码：<input name="password" type="password" value="123456"> <br>
+      <input type="submit" value="登录">
+    </form>
+  </div>
+
+  <div class="block">
+    <h1>注册</h1>
+    <form action="/user/regist" method="post">
+      用户名：<input name="userName" type="text" value="admin"><br>
+      密码：<input name="password" type="password" value="123456"> <br>
+      <input type="submit" value="注册">
+    </form>
+  </div>
+</body>
+</html>

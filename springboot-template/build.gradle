@@ -1,0 +1,51 @@
+plugins {
+  id 'org.springframework.boot' version '2.5.0'
+  id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+  id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = JavaVersion.VERSION_11
+
+repositories {
+  mavenCentral()
+}
+
+// 显示错误详情
+allprojects {
+  gradle.projectsEvaluated {
+    tasks.withType(JavaCompile) {
+      options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+    }
+  }
+}
+
+dependencies {
+  implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+  implementation('com.baomidou:mybatis-plus-boot-starter:3.4.3.4')
+  implementation('org.springframework.boot:spring-boot-starter-data-redis')
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  implementation 'org.springframework.boot:spring-boot-starter-validation'
+  implementation("org.springframework.boot:spring-boot-devtools")
+  implementation 'com.auth0:java-jwt:3.18.2'
+  implementation 'com.alibaba:fastjson:1.2.83'
+  implementation 'com.tencentcloudapi:tencentcloud-sdk-java:3.1.448'
+  // 使用文档：https://cloud.tencent.com/document/product/436/10199
+  implementation 'com.qcloud:cos_api:5.6.54'
+  implementation 'com.github.kuaidi100-api:sdk:1.0.5'
+  // 生成二维码图片，使用文档：https://zxing.github.io/zxing/apidocs/com/google/zxing/package-summary.html
+  implementation('com.google.zxing:javase:3.3.0')
+  implementation('com.google.zxing:core:3.3.0')
+  // 引入swagger文档。配置见 Swagger2.java。地址：http://localhost:8080/swagger-ui.html
+  implementation 'io.springfox:springfox-swagger2:2.9.2'
+  implementation 'io.springfox:springfox-swagger-ui:2.9.2'
+  runtimeOnly 'mysql:mysql-connector-java'
+  compileOnly 'org.projectlombok:lombok'
+  annotationProcessor 'org.projectlombok:lombok'
+  testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+  useJUnitPlatform()
+}
